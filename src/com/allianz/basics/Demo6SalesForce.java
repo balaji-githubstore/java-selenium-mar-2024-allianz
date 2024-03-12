@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 public class Demo6SalesForce {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -24,8 +24,6 @@ public class Demo6SalesForce {
 		//Select Job title as “IT Manager”
 		Select selectJobTitle=new Select(driver.findElement(By.name("UserTitle")));
 		selectJobTitle.selectByVisibleText("IT Manager");
-		
-
 		
 		//Select country as “United Kingdom”
 		Select selectCountry=new Select(driver.findElement(By.name("CompanyCountry")));
