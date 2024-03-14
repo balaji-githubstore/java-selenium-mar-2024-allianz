@@ -7,7 +7,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class Demo1LaunchBrowser {
 
 	public static void main(String[] args) {
-		
 		WebDriver driver=null;
 		String browser="edge";
 		
