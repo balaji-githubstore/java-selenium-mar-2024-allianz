@@ -8,7 +8,7 @@ public class Demo1LaunchBrowser {
 
 	public static void main(String[] args) {
 		WebDriver driver=null;
-		String browser="edge";
+		String browser="ch";
 		
 		if(browser.equalsIgnoreCase("ch"))
 		{
