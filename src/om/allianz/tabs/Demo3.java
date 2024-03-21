@@ -18,7 +18,6 @@ public class Demo3 {
 		
 		driver.get("https://db4free.net");
 		
-
 		driver.findElement(By.partialLinkText("phpMyAdmin")).click();
 		
 		ArrayList<String> windows=new ArrayList<String>(driver.getWindowHandles());
