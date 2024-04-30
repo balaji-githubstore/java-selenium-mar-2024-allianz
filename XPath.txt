@@ -17,6 +17,24 @@ Contains
 //tagname[contains(normalize-space(),'')]
 
 
+//input[@type='file']
+
+And - or
+//tagname[@attribute='' and @attribute='']
+//input[@type='file' and @accept='.pdf']
+
+parent- child
+
+
+ancestor-descendant
+
+
+following-preceding 
+
+
+
+
+
 Example: verify in chrome - ctlr+f
 //input[@value='-1']
 //label[text()='Custom']
@@ -33,3 +51,46 @@ Example: verify in chrome - ctlr+f
 
 //img[contains(@src,'go.gif')]
 //p[contains(normalize-space(),'OS')]
+
+
+---------
+
+john,john123,Invalid credentials
+saul,saul123,Invalid credentials
+
+-------------
+
+saul,saul123
+peter,peter123
+kim,kim123
+
+
+
+{{saul,saul123},{peter,peter123},{kim,kim123}}
+
+
+
+[0][1]
+----
+
+created branch b1 - copy made from master at Apr 18, 11:37 
+
+created branch b2-no-page-object - copy made from master at Apr 23, 12:05 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

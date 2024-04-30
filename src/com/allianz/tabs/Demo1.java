@@ -1,4 +1,4 @@
-package om.allianz.tabs;
+package com.allianz.tabs;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Demo2 {
+public class Demo1 {
 	
 	public static void main(String[] args) {
 		
@@ -23,17 +23,9 @@ public class Demo2 {
 		driver.findElement(By.partialLinkText("phpMyAdmin")).click();
 		
 		ArrayList<String> windows=new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(windows.get(1));
-		
-		driver.findElement(By.id("input_username")).sendKeys("admin");
-		//enter password admin1233
-		//click on login
-		
-		driver.close(); //check - what is happening?
-		
-		driver.switchTo().window(windows.get(0));
-
-		System.out.println(driver.getTitle());
+		System.out.println(windows);
+		System.out.println(windows.get(0));
+		System.out.println(windows.get(1));
 		
 	}
 

@@ -1,4 +1,4 @@
-package om.allianz.tabs;
+package com.allianz.tabs;
 
 import java.time.Duration;
 import java.util.ArrayList;
