@@ -52,7 +52,13 @@ Example: verify in chrome - ctlr+f
 //img[contains(@src,'go.gif')]
 //p[contains(normalize-space(),'OS')]
 
-
+//select[data-handler='selectYear']
+------------------------------------
+CSS Selector -  https://w3schools.com/cssref/css_selectors.php
+#id
+.classname
+tagname[attribute='']
+[attribute='']
 ---------
 
 john,john123,Invalid credentials
